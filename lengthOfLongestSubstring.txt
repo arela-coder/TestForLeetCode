@@ -1,7 +1,7 @@
 class Solution {
     fun lengthOfLongestSubstring(s: String): Int {
 
- var resultLength = s.length
+  var resultLength = s.length
         var curLength = 0
         if (resultLength >= 2) {
             resultLength = 0
